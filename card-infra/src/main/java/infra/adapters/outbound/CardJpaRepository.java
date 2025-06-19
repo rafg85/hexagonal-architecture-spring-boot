@@ -1,4 +1,4 @@
-package infra.adapters.output;
+package infra.adapters.outbound;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

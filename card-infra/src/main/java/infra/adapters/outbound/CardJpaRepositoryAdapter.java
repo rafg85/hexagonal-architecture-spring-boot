@@ -1,11 +1,11 @@
-package infra.adapters.output;
+package infra.adapters.outbound;
 
 import java.util.List;
 
 import org.springframework.stereotype.Component;
 
 import core.domain.model.Card;
-import core.ports.output.CardRepositoryPort;
+import core.ports.outbound.CardRepositoryPort;
 import jakarta.transaction.Transactional;
 
 @Component

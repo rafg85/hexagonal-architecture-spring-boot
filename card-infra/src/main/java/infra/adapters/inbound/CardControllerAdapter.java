@@ -1,4 +1,4 @@
-package infra.adapters.input;
+package infra.adapters.inbound;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import core.domain.model.Card;
-import core.ports.input.CardServicePort;
+import core.ports.inbound.CardServicePort;
 
 @RestController
 @RequestMapping("cards")

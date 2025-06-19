@@ -1,4 +1,4 @@
-package infra.adapters.output;
+package infra.adapters.outbound;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -10,12 +10,12 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "card")
 public class CardEntity {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "card_id")
 	private Long cardId;
-	
+
 	@Column(name = "card_name")
 	private String cardName;
 
@@ -44,7 +44,5 @@ public class CardEntity {
 	public CardEntity() {
 		super();
 	}
-	
-	
 
 }

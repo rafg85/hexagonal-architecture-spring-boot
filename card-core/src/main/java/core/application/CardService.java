@@ -4,9 +4,9 @@ import java.util.List;
 
 import core.domain.DomainService;
 import core.domain.model.Card;
-import core.ports.input.CardServicePort;
-import core.ports.output.CardRepositoryPort;
-import core.ports.output.ExternalClientPort;
+import core.ports.inbound.CardServicePort;
+import core.ports.outbound.CardRepositoryPort;
+import core.ports.outbound.ExternalClientPort;
 
 @DomainService
 public class CardService implements CardServicePort {

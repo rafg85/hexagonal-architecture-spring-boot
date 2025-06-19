@@ -1,4 +1,4 @@
-package infra.adapters.output;
+package infra.adapters.outbound;
 
 import java.util.Optional;
 
@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
-import core.ports.output.ExternalClientPort;
+import core.ports.outbound.ExternalClientPort;
 
 @Component
 public class ExternalClientAdapter implements ExternalClientPort {

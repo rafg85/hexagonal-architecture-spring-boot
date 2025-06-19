@@ -1,4 +1,4 @@
-package infra.adapters.input;
+package infra.adapters.inbound;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

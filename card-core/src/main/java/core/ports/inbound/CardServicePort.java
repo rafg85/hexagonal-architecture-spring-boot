@@ -1,4 +1,4 @@
-package core.ports.input;
+package core.ports.inbound;
 
 import java.util.List;
 
